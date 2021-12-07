@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d1a187df-524f-4d45-97fa-7cbb50e46b2c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/idempotent/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idempotent/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/idempotent/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/idempotent/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/idempotent/interceptor/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/idempotent/interceptor/AuthInterceptor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/idempotent/Application.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/idempotent/controller/IdeMarkController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/idempotent/annotation/Idempotent.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/maven/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="localRepository" value="D:\develop\apache-maven-3.6.1\respository" />
+        <option name="mavenHome" value="D:/develop/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\develop\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -48,17 +66,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -71,7 +92,14 @@
       <recent name="F:\local\idempotent\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="idempotent.Application" />
       <module name="idempotent" />
@@ -81,6 +109,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="from_idempotent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="idempotent.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +133,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -109,68 +145,30 @@
       <option name="presentableId" value="Default" />
       <updated>1604298554774</updated>
       <workItem from="1604298557792" duration="5239000" />
+      <workItem from="1638839285450" duration="201000" />
+      <workItem from="1638839525525" duration="5312000" />
+      <workItem from="1638846542600" duration="358000" />
+      <workItem from="1638846917123" duration="1690000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="121" y="0" key="#Project_Structure" timestamp="1604300561373">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604300561373" />
-    <state x="298" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604303383286">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="298" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303383286" />
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1604302139331">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604302139331" />
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1604303209998">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303209998" />
-    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1604303209998">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303209998" />
-    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1604303209997">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303209997" />
-    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1604303209998">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303209998" />
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1604303209998">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303209998" />
-    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1604303209998">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303209998" />
-    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1604303209998">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303209998" />
-    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1604303209998">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303209998" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1604300683624">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604300683624" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1604298831254">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604298831254" />
-    <state x="339" y="72" width="603" height="536" key="find.popup" timestamp="1604303459079">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="339" y="72" width="603" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604303459079" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

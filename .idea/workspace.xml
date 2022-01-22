@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1a187df-524f-4d45-97fa-7cbb50e46b2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="d1a187df-524f-4d45-97fa-7cbb50e46b2c" name="Default Changelist" comment="first update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idempotent/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idempotent/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idempotent/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/idempotent/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idempotent/interceptor/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/idempotent/interceptor/AuthInterceptor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +33,9 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/idempotent/Application.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/idempotent/controller/IdeMarkController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/idempotent/annotation/Idempotent.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -76,7 +74,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -109,6 +107,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,8 +157,21 @@
       <workItem from="1638839285450" duration="201000" />
       <workItem from="1638839525525" duration="5312000" />
       <workItem from="1638846542600" duration="358000" />
-      <workItem from="1638846917123" duration="1690000" />
+      <workItem from="1638846917123" duration="4139000" />
+      <workItem from="1638853956917" duration="1352000" />
+      <workItem from="1638858615037" duration="2127000" />
+      <workItem from="1639038956224" duration="3824000" />
+      <workItem from="1639098226039" duration="37000" />
+      <workItem from="1639115691727" duration="199000" />
     </task>
+    <task id="LOCAL-00001" summary="first update">
+      <created>1638848653060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638848653060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +188,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first update" />
+    <option name="LAST_COMMIT_MESSAGE" value="first update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
